@@ -1,5 +1,4 @@
 ## Funcionalidade
-
     Microfone: Usa o SpeechRecognition para capturar e transcrever fala em tempo real.
     Arquivo WAV: Lê o arquivo WAV e transcreve seu conteúdo.
     Menu Interativo: Interface simples para escolher entre microfone ou arquivo.
@@ -33,7 +32,7 @@
 
 ## Instalação
 
-Instale as dependências:
+    Instale as dependências:
 ```python
 pip install SpeechRecognition
 pip install pyaudio
