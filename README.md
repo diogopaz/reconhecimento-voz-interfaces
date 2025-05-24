@@ -30,8 +30,6 @@ pip install SpeechRecognition
 pip install pyaudio
 ```
 
-Observação: Se você tiver problemas para instalar o pyaudio, consulte a documentação oficial ou procure por instruções específicas para seu sistema operacional.
-
 ## Como Usar
 
 1. Execute o script principal:
@@ -43,8 +41,6 @@ python reconhecedor_de_voz.py
 2. No menu interativo, escolha a opção desejada:
 
 - [1] Reconhecimento por Microfone
-   - Certifique-se de que seu microfone está conectado.
-   - Siga as instruções e fale após o prompt.
 
 - [2] Reconhecimento por Arquivo WAV
    - Informe o caminho para o arquivo de áudio quando solicitado.  
@@ -66,11 +62,3 @@ O script é iniciado a partir do seguinte bloco:
 if __name__ == "__main__":
     main()
 ```
-
-## Licença
-
-Este projeto está licenciado sob a MIT License.
-
-## Contato
-
-Feito por Seu Nome - [https://github.com/seu-usuario](https://github.com/seu-usuario)
